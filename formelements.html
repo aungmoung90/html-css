@@ -1,0 +1,119 @@
+<html>
+<head>
+	<title>Form Elements</title>
+</head>
+
+
+<body>
+<fieldset>
+	<legend align="center">This is sample form</legend>
+
+	<form action="" method="" enctype="multipart/form-data">
+		<label for="firstname">First Name</label>
+		<input type="text" name="firstname" id="firstname" class="" placeholder="Enter Your First Name" autofocus="" />
+
+		<br/><br/>
+
+		<label for="lastname">Last Name</label>
+		<input type="text" name="lastname" id="lastname" class="" placeholder="Enter Your Last Name">
+
+		<br/><br/>
+
+		<label for="age">Age</label>
+		<input type="number" name="age" id="age" class="" placeholder="Enter Your Age">
+
+		<br/><br/>
+
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" class="" placeholder="Enter Your Email Address">
+
+		<br/><br/>
+
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password" class="" placeholder="Enter Your Password" required minlength="5" maxlength="12">
+
+		<br/><br/>
+
+		<label>Gender</label>
+		<input type="radio" name="gender" id="genderm" class="" value="1" checked><label for="genderm">Male</label>
+		<input type="radio" name="gender" id="genderf" class="" value="0"><label for="genderf">Female</label>
+		<input type="radio" name="gender" id="gendero" class="" value="3"><label for="gendero">Other</label>
+
+		<br/><br/>
+
+		<label>Fav Car Brand</label>
+		<input type="radio" name="car" id="cart" class="" value="t"><label for="cart">Toyota</label>
+		<input type="radio" name="car" id="cars" class="" value="s"><label for="cars">Suzuki</label>
+		<input type="radio" name="car" id="carm" class="" value="m"><label for="carm">Mazada</label>
+
+		<br/><br/>
+
+		<label>Choose Your Fav Color</label>
+		<input type="checkbox" name="color" id="red" class="" value="r" /><label for="red">Red</label>
+		<input type="checkbox" name="color" id="green" class="" value="g"  /><label for="green">Green</label>
+		<input type="checkbox" name="color" id="blue" class="" value="b" /><label for="blue">Blue</label>
+		<input type="checkbox" name="color" id="brown" class="" value="br" /><label for="brown">Brown</label>
+		<input type="checkbox" name="color" id="yellow" class="" value="y" /><label for="yellow">Yellow</label>
+
+		<br/><br/>
+
+		<label for="country">Country</label>
+		<select name="country" id="country" class="">
+			<option selected disabled>Choose Your Country</option>
+			<option value="mm">Myanmar</option>
+			<option value="th">Thailand</option>
+			<option value="ml">Malaysia</option>
+			<option value="lao">Laos</option>
+			<option value="vn">Vietnam</option>
+		</select>
+
+		<br/><br/>
+
+		<label for="date">Date</label>
+		<input type="date" name="date" id="date" class="" />
+
+		<br/><br/>
+
+		<label for="time">Time</label>
+		<input type="time" name="time" id="time" class="" />
+
+		<br/><br/>
+
+		<label for="datetime">Date Time</label>
+		<input type="datetime-local" name="datetime" id="datetime" class="" />
+
+		<br/><br/>
+
+		<label for="nrc">NRC</label>
+		<input type="file" name="nrc" id="nrc" class="" multiple>
+
+		<br/><br/>
+
+		<label for="range">Range</label>
+		<input type="range" name="range" id="range" class="" min="0" max="100" step="10" value="0" />
+
+		<br/><br/>
+
+		<label for="bio">Bio</label> <br/>
+		<textarea name="bio" id="bio" class="" rows="5" placeholder="Write Somethings..........."></textarea>
+
+		<br/><br/>
+
+		<input type="hidden" name="test" id="test" class="" />
+
+
+		<br/><br/>
+
+		<input type="reset" name="reset" id="reset" class="" value="cancle" />
+		<input type="submit" name="submit" id="submit" class="" value="Register">
+		<button type="submit" name="submit" id="submit" class="">Login</button>
+</form>
+
+</fieldset>
+
+		<hr/>
+
+		<iframe src="table.html" width="900px" height="100px"></iframe>
+	
+</body>
+</html>

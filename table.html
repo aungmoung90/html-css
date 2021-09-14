@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>Table Tag</title>
+</head>
+
+<style type="text/css">
+	
+	.container{
+		color:white;
+		background-color:black;
+	}
+
+	.container:hover{
+		background-color:grey;
+	}
+	.bd:hover{
+		background-color:darkblue;
+		color:yellow;
+		font-size:17px;
+	}
+
+</style>
+
+<body>
+	<table border="1" width="500px" height="10px" align="center" class="container">
+		<thead bgcolor="grey" align="center">
+			<tr>
+				<td>No</td>
+				<td>Namme</td>
+				<td>Age</td>
+				<td>Phone Number</td>
+				<td>Email Address</td>
+				<td>Remark</td>
+			</tr>
+		
+		</thead>
+		
+		<tbody bgcolor="skyblue" align="center" class="bd">
+			<tr>
+				<td>1</td>
+				<td>Maung Maung</td>
+				<td>22</td>
+				<td>09xxxxxxxxx</td>
+				<td>abc@gmail.com</td>
+				<td rowspan="5">Passed</td>
+				</tr>
+
+			<tr>
+				<td>2</td>
+				<td>Zaw Zaw</td>
+				<td>23</td>
+				<td>09xxxxxxxxx</td>
+				<td>abc@gmail.com</td>
+			</tr>
+
+			<tr>
+				<td>3</td>
+				<td>Hla Hla</td>
+				<td>24</td>
+				<td>09xxxxxxxxx</td>
+				<td>abc@gmail.com</td>
+			</tr>
+		</tbody>
+
+
+		<tfoot align="center">
+			<tr>
+				
+				<td colspan="4" >Total</td>
+				<td colspan="2">3</td>
+			</tr>
+		</tfoot>
+
+	</table>
+</body>
+</html>
